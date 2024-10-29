@@ -5,7 +5,7 @@ const botoken = "HERE"
 const ip = 'SERVER_IP';
 const port = 8341; // port
 const api = `http://${ip}:${port}/api/`;
-console.log("enjoy")
+
 client.once('ready', () => {
     console.log(`${client.user.tag} online`);
     up();
