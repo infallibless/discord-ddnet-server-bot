@@ -18,7 +18,7 @@ async function up() {
         const data = response.data;
         const playerCount = data?.players?.count;
         client.user.setActivity(`${playerCount} players active`, { type: 'PLAYING' });
-        console.log(`playing status updated -> 14 players active`);
+        console.log(`playing status updated`);
     } catch (error) {
         console.error('failed to retrieve server status:', error.message);
         client.user.setActivity(`unknown server`, { type: 'PLAYING' });
