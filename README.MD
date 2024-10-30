@@ -21,7 +21,7 @@ This Discord bot retrieves the player count from a specified DDNet server and up
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/infallibless/discord-ddnet-server-bot.git
-   cd discord-server-status-bot
+   cd discord-ddnet-server-bot
 
 ## 📜 Copyright
 
